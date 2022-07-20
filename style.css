@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Sansita+Swashed:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/vectors/abstract-hexagon-wallpaper-white-background-3d-vector-illustration-vector-id1212342896?k=20&m=1212342896&s=612x612&w=0&h=fp3B4g_hE54snO4Nf1ggElVnI0gD9s7tPd5JU0eFl9Q=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+h1 {
+    position: absolute;
+    top: 70px;
+    font-size: 40px;
+    color: black;
+}
+
+form {
+    width: 30%;
+    height: auto;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+form h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin: 10px 0px;
+    font-family: Montserrat;
+    border: 1px solid #000000;
+}
+
+form a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input[type=checkbox] {
+    margin-right: 8px;
+}
+
+input[type=button] {
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 700;
+    background-color: #7d94d4;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=button]:hover {
+    background-image: linear-gradient(#FD297A, #9424F0);
+}
+
+label {
+    font-size: 14px;
+}
+
+.footerlist ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul a {
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+ul a:hover {
+    font-size: 15px;
+    transition: 0.03s;
+}
+
+.items {
+    padding: 10px;
+}
+
+.signup p {
+    margin-top: 15px;
+}
